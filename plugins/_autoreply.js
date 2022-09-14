@@ -22,11 +22,11 @@ let fs = require('fs')
       
      // ketika ada yang invite/kirim link grup di chat pribadi 
      if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) { 
-         this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/d75ed6e82e964778e169e.jpg', `┌「 *Undang Bot ke Grup* 」 
- ├ 7 Hari / Rp 5,000 
- ├ 30 Hari / Rp 15,000 
+         this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', `┌「 *Undang Bot ke Grup* 」 
+ ├ 7 Hari / Rp 10,000 
+ ├ 30 Hari / Rp 30,000 
  └──── 
- `, wm, 'Pemilik Bot', '.owner', m) 
+ `, wm, '🛡 PEMILIK BOT 🛡', '.owner', m) 
      } 
   
      if (m.isGroup) { 
@@ -38,9 +38,9 @@ let fs = require('fs')
                      key: m.key 
              } 
      })         
-             await this.send2ButtonLoc(m.chat, 'https://telegra.ph/file/96a78933baa32ab4829ca.jpg', m.msg.contextInfo.expiration == 604800 ? '\n\nketik *.ephe* untuk matiin pesan sementaranya, biar tombolnya bisa dipake' : `Ada Apa Ya Tag-Tag Saia @${m.sender.split`@`[0]}?\nApakah Ada Bansos ?`, wm, isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu', 
+             await this.send2ButtonLoc(m.chat, 'https://telegra.ph/file/96a78933baa32ab4829ca.jpg', m.msg.contextInfo.expiration == 604800 ? '\n\nketik *.ephe* untuk matiin pesan sementaranya, biar tombolnya bisa dipake' : `Ada Apa Ya Tag-Tag Saia @${m.sender.split`@`[0]}?\nApakah Ada Bansos ?`, wm, isBanned ? 'Unban' : banned ? '🛡 PEMILIK BOT 🛡' : '🎀 MENU 🎀', 
                  isBanned ? '.unban' : banned ? '.owner' : '.?', 
-                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi', 
+                 m.isGroup ? '🌟 BANNED 🌟' : isBanned ? '🔛 UNBANNED 🔛' : '💰 DONASI 💰', 
                  m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m) 
      } 
  } 
@@ -49,13 +49,13 @@ let fs = require('fs')
          await this.sendButton(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'aktif', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi', m) 
      } 
       
-     if (/@16199961931$/i.test(m.text)) { 
+     if (/@6283816446896$/i.test(m.text)) { 
          await this.sendButtonDoc(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'Ngapain Tag Owner Saya?', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi',  m, { 
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/', 
-             title: 'Ziv San UwU', 
+                 sourceUrl: 'https://instagram.com/sampun_penak', 
+             title: 'Mimim Official', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
          } 
@@ -67,15 +67,15 @@ let fs = require('fs')
       if (new Date() * 1 - setting.status > 1000) {  
           let _uptime = process.uptime() * 1000  
           let uptime = clockString(_uptime)  
-   const ultah = new Date('April 4, 2023 23:59:59')
+   const ultah = new Date('April 26, 2023 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`☘️ Ultah Ziv San : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
-⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Ziv San`).catch(_ => _)  
+        await this.setBio(`☘️ Ultah Mimim Official : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Mimim Official`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 
   

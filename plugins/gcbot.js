@@ -2,31 +2,25 @@ let fetch = require('node-fetch')
  let handler = async(m, { conn }) => { 
      try { 
          let pp = await(await fetch(image)).buffer 
-         let gc1 = '34649537982-1370248067@g.us' 
-         let gc2 = '628112958665-1628163967@g.us' 
-         let gc3 = '628112958665-1571053173@g.us' 
-         let _gc1 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc1) 
-         let _gc2 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc2) 
-         let _gc3 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc3) 
          let caption = ` 
  *Join juga group official Cute Bot!* 
  Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
- ${_gc1} 
+https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV
   
  *Group 2* 
- ${_gc2} 
+https://chat.whatsapp.com/KTIbnN1E8i424xk3b5jkdg
   
  *Group 3* 
- ${_gc3} 
+https://chat.whatsapp.com/HeyPTXroU670omQ7axe12f
   
  `.trim() 
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
-               sourceUrl: 'https://youtu.be/-tKVN2mAKRI', 
+               sourceUrl: 'https://instagram.com/sampun_penak', 
                title: 'Official group', 
-               body: 'Haruno Bot', 
+               body: 'The Bot', 
                thumbnail: pp 
              } 
          }}) 
@@ -36,16 +30,16 @@ let fetch = require('node-fetch')
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV
  
  `.trim() 
-     await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
+     await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', '📳 RULES 📳', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
-            title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
+        	sourceUrl: 'https://instagram.com/sampun_penak',
+            title: 'Group Official',
+            body: '© TheBotz-Ofc By Mimim-Ofc',
           thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
         }
      }

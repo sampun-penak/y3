@@ -1,5 +1,5 @@
 let handler = async(m, {conn, command, usedPrefix, text}) => {
-  let fail = 'format salah, example: ' +usedPrefix+command+ ' Aine|1. Masak'
+  let fail = 'format salah, example: ' +usedPrefix+command+ ' Mimim|1. Masak'
   global.db.data.users[m.sender].catatan = global.db.data.users[m.sender].catatan || []
   let catatan = global.db.data.users[m.sender].catatan
   let split = text.split('|')
@@ -12,7 +12,7 @@ let handler = async(m, {conn, command, usedPrefix, text}) => {
     'isi': isi
   }
   global.db.data.users[m.sender].catatan.push(cttn)
-  conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/7989b4e60a9dedfcdbbec.jpg', `Catatan berhasil dibuat!\nUntuk melihat catatan. Ketik: ${usedPrefix}lihatcatatan`, wm, 'Liat Catatan', '.lihatcatatan', m)
+  conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/7989b4e60a9dedfcdbbec.jpg', `Catatan berhasil dibuat!\nUntuk melihat catatan. Ketik: ${usedPrefix}lihatcatatan`, wm, '📝 LIAT CATATAN 📝', '.lihatcatatan', m)
 }
 
 handler.help = ['buatcatatan <title|isi>']

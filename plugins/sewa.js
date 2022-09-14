@@ -45,11 +45,11 @@ let fetch = require('node-fetch')
                    "title": "────────「 Trial 」" 
                  }, { 
                      "rows": [{ 
-                       "title": `Permanent! Rp5.000`, 
-                       "description": "Masukkan bot ke dalam group tanpa batasann waktu!", 
+                       "title": `VIP! Rp100.000`, 
+                       "description": "Masukkan bot ke dalam group dijangkau waktu yang lama!", 
                        "rowId": ".masuk"
                    }], 
-                     "title": "───────「 Permanent 」" 
+                     "title": "───────「 VIP 」" 
                  } 
                ]
          const listMessage = {
@@ -57,8 +57,8 @@ let fetch = require('node-fetch')
 Untuk fitur bot bisa baca menu sampai selesai ya kak, dicoba coba dulu biar tau ( Ketik *.menu* )
 Silahkan hubungi owner ( Ketik *.owner* ) jika ingin menyewa bot untuk grup chat kalian
 
-➠ Sewa (Join Grup) harga 5K / Permanent dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
-➠ Pembayaran saat ini hanya tersedia via Qris.
+➠ Sewa (Join Grup) harga 100K / VIP dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
+➠ Pembayaran saat ini hanya tersedia via Pulsa
 ➠ Proses transaksi seperti pada umumnya, chat owner terlebih dahulu untuk menanyakan nomor tujuan transfer setelah itu screenshot bukti pembayaran.
 ➠ *Penting!* simpan nomor owner dan join ke dalam grup official dibawah untuk mengetahui update nomor bot terbaru apabila ter-banned.
 ➠ Bot bisa di pindah pindah Grup (berlaku untuk yang sewa) kedalam grup lain (hanya 1 grup)

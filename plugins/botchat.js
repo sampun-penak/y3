@@ -10,7 +10,7 @@ conn.sendMessage(m.chat, {
     		key: m.key
     	}
     })	
-conn.sendButton(m.chat, `Halo juga kak @${m.sender.split`@`[0]} Ada Yang ${await conn.getName(conn.user.jid)} Bisa Bantu?`, wm, 'Menu', '#Menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `${ucapan()} ${conn.getName(m.sender)}`, itemCount: 999, thumbnail: img
+conn.sendButton(m.chat, `Halo juga kak @${m.sender.split`@`[0]} Ada Yang ${await conn.getName(conn.user.jid)} Bisa Bantu?`, wm, '🎀 MENU 🎀', '.menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `${ucapan()} ${conn.getName(m.sender)}`, itemCount: 999, thumbnail: img
 }}})
 }
 handler.customPrefix = /^(Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello)$/i

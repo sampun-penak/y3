@@ -14,7 +14,7 @@ let axios = require('axios')
      }) 
   
      let caption = result.map(v => `💌 ${v.title}\n📮 ${v.teks}`).join('\n┄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┄\n') 
-     await conn.sendButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/a333442553b1bc336cc55.jpg')).buffer(), `*────────「 Alkitab 」 ────────*`, caption, 'Menu', `.menu`, m)
+     await conn.sendButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/a333442553b1bc336cc55.jpg')).buffer(), `*────────「 Alkitab 」 ────────*`, caption, '🎀 MENU 🎀', `.menu`, m)
  } 
  handler.help = ['alkitab'].map(v => v + ' <pencarian>') 
  handler.tags = ['cristian'] 

@@ -10,7 +10,7 @@ let handler = async (m, { conn, command }) => {
             description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
             mediaType: 2,
           thumbnail: await (await fetch('https://telegra.ph/file/183357037c1f1a286aea0.jpg')).buffer(),
-         mediaUrl: `https://youtube.com/watch?v=uIedYGN3NQQ`
+         mediaUrl: `https://instagram.com/sampun_penak`
         }
      }
     })

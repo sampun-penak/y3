@@ -28,7 +28,7 @@ let handler = async (m, { conn }) => {
 │✧  ${jadibot ? '✅' : '❌'} *Jadi Bot*
 │✧  ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ╰────────────⬣
-    `.trim(), wm, 'Yang Punya', '.creator', m)
+    `.trim(), wm, '🛡 PEMILIK BOT 🛡', '.creator', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
