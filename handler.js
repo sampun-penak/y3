@@ -31,18 +31,18 @@ module.exports = {
         global.img = 'https://telegra.ph/file/74d983dd46e8bac065b48.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = '© CUTE TheBotz-Ofc'
+        global.packname = '©TheBotz-Ofc'
         global.author = 'Made By Mimim Ofc © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Cute Bot By Mimim Ofc © 2022'
+        global.author2 = 'Bot By Mimim Ofc © 2022'
         global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Mimim Ofc˚'
-        global.wm2 = '© CUTE TheBotz-Ofc' + ' ' + 'By Mimim Ofc'
-        global.wm = '© CUTE TheBotz-Ofc'
+        global.wm2 = '©TheBotz-Ofc' + ' ' + 'By Mimim Ofc'
+        global.wm = '©TheBotz-Ofc'
         global.colong1 = 'Ciss 📸'
         global.colong2 = 'By TheBotz & Mimim Ofc'
         global.kontak2 = [
         ['6287848115476', 'Mimim Ofc', 'Creator Bot', 'mimimproject@gmail.com', true],
-        ['6283816446896', 'CUTE TheBotz-Ofc', 'Bot WhatsApp', 'Just Bot', true]
+        ['6283816446896', 'TheBotz-Ofc', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -652,7 +652,7 @@ module.exports = {
                                 member: groupMetadata.participants.length
                             })
                             /*await this.send3TemplateButtonImg(id, action === 'add' ? wel : lea, text, wm, action === 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'FokusID')*/
-   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'Cute TheBotz-Ofc', fkontak,{
+   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'TheBotz-Ofc', fkontak,{
   contextInfo: {mentionedJid: [user],
     externalAdReply :{
     mediaUrl: linkyt,
