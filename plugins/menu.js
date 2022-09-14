@@ -317,7 +317,7 @@ ${'```%npmdesc```'}
        } 
      }) 
      if (teks == '404') {
- 	let cute = `${pickRandom(['https://telegra.ph/file/74d983dd46e8bac065b48.jpg', 'https://telegra.ph/file/a95dbbb9999e450ca2647.jpg', 'https://telegra.ph/file/ea3959a6bcd824932283c.jpg', 'https://telegra.ph/file/ea65a044c450e8513f09f.jpg','https://telegra.ph/file/74d983dd46e8bac065b48.jpg','https://telegra.ph/file/a95dbbb9999e450ca2647.jpg', 'https://telegra.ph/file/ea3959a6bcd824932283c.jpg', 'https://telegra.ph/file/ea65a044c450e8513f09f.jpg', 'https://telegra.ph/file/c9a695262426ed4e8b3b8.jpg'])}` 
+ 	let cute = `${pickRandom(['https://telegra.ph/file/05b0cca5792a6c571370f.jpg', 'https://telegra.ph/file/05b0cca5792a6c571370f.jpg', 'https://telegra.ph/file/05b0cca5792a6c571370f.jpg', 'https://telegra.ph/file/0494cc95232b92e014a66.jpg','https://telegra.ph/file/0494cc95232b92e014a66.jpg','https://telegra.ph/file/0494cc95232b92e014a66.jpg', 'https://telegra.ph/file/e601b704afefe185193a1.jpg', 'https://telegra.ph/file/e601b704afefe185193a1.jpg', 'https://telegra.ph/file/e601b704afefe185193a1.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
 Saya Adalah Bot Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik .request Pesan Atau Fitur Yang Kamu Inginkan!`
