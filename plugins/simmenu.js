@@ -60,7 +60,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) =>�
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-    const natal = new Date('December 25, 2023 23:59:59')
+    const natal = new Date('December 25, 2022 23:59:59')
     const kapanatal = new Date().getTime() 
     const natalnya = natal - kapanatal
     const nhari = Math.floor( natalnya / (1000 * 60 * 60 * 24));
@@ -109,7 +109,7 @@ const fkgif = {
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
 ⚘ *Bot Name: TheBotz-Official*
-⚘ *Creator: Mimim-Officiap*
+⚘ *Creator: Mimim-Official*
 ⚘ *Contact Owner Bot*
 *http://wa.me/6283816446896*
 ⚘ *Tanggal: ${date}*  
