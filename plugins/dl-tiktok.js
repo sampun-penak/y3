@@ -1,42 +1,35 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, usedPrefix, text, command, args }) => {
-	let ftroli = {
-    key : {
-    remoteJid: 'status@broadcast',
-    participant : '0@s.whatsapp.net'
-    },
-    message: {
-    orderMessage: {
-    itemCount : 9999999,
-    status: 404,
-    surface : 404,
-    message: `�? TIKTOK DOWNLOADER`, 
-    orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/c2c7057129ff6f42095b8.jpg')).buffer(), //Gambarnye
-    sellerJid: '0@s.whatsapp.net' 
-    }
-    }
-    }
-    let res = await fetch(`https://botcahx-rest-api.herokuapp.com/api/dowloader/tikok?url=${args[0]}`)
-    let json = await res.json()
-    if (!json.status) return conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/fd56c12d665a14793a1fb.jpg', `Harap masukkan URL sebagai parameter.\n\nContoh: ${usedPrefix + command} https://vt.tiktok.com/ZSdpHWxxG/?k=1`, wm, 'Sip', 'Ok', m)
-    let data = json.result
-    let video = data.video
-    let thumb = await (await fetch(data.thumb)).buffer()
-    let tag = `@${m.sender.split('@')[0]}`
-    conn.reply(m.chat, '*WAIT! | Mohon Tunggu Sebentar...*', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(), contextInfo: { externalAdReply: {title: 'Lagi Memuat Data', sourceUrl: 'https://instagram.com/sampun_penak', body: '© 𝙷𝚊𝚘𝚛𝚒𝚋𝚘𝚝𝚣 𝙱𝚢 𝚉𝚒𝚟𝚏𝚞𝚛𝚛', thumbnail: await (await fetch('https://telegra.ph/file/7d3c2136bec2eaec00f2e.jpg')).buffer(),}}})
-let txt = `Hai Kak ${tag}, Videonya Udah Jadi Nih, Kalau Mau Versi Ekstensi Lain, Pilih Dibawah Ya` 
-    await conn.sendButtonVid(m.chat, video, txt, 'Mau Ganti Ke Versi Music Klik Dibawah', `Audio`, `.tiktokaudio ${args[0]}`, 0, { quoted: ftroli,
-    contextInfo: { forwardingScore: 99999, isForwarded: true,
-        externalAdReply: {
-        	sourceUrl: 'https://instagram.com/sampun_penak',
-            title: 'Tiktok Downloader 🎥',
-            body: wm2,
-          thumbnail: thumb
-        }
-     }
+let axios = require('axios')
+let handler = async (m, { conn, args }) => {
+  if (!args[0]) throw 'Uhm...url nya mana?'
+ // let url = `https://api.lolhuman.xyz/api/tiktokwm?apikey=9b817532fadff8fc7cb86862&url=${args[0]}`
+    m.reply(data.wait)
+await conn.reply(m.chat, `Downloading media from Tiktok`, 0, {
+  contextInfo: { mentionedJid: [m.sender],
+    externalAdReply :{
+    showAdAttribution: true,
+    mediaUrl: data.sc,
+    mediaType: 2,
+    description: data.deslink , 
+    title: 'Tunggu Sebentar',
+    body: wm,
+    thumbnail: await(await fetch(img)).buffer(),
+    sourceUrl: data.sc
+     }}
+  })
+let txt = `🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}` 
+    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/tiktokwm?apikey=85faf717d0545d14074659ad&url=${args[0]}` , txt, wm, `No Wm`, `.tiktoknowm ${args[0]}`, `Audio`, `.tiktokaudio ${args[0]}`, m, { contextInfo: {
+    externalAdReply :{
+    showAdAttribution: true,
+    title: 'Nih Kak Video Tiktoknya',
+    body: wm,
+    mediaUrl: data.linkig,
+    source: data.deslink,
+    mediaType: 2,
+    thumbnail: await(await fetch(img)).buffer(),   
+    }}
     })
- } 
+}
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
