@@ -14,8 +14,8 @@ let handler = async (m, { conn, text }) => {
     status: 404,
     surface : 404,
     message: `© CUTE BROADCAST\nFrom ${conn.getName(m.sender)} 🌠`, 
-    orderTitle: `▮By Zivfurr ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/d22003d24ff779724cc58.jpg')).buffer(),
+    orderTitle: `▮By Mimim ▸`,
+    thumbnail: await (await fetch('https://telegra.ph/file/74d983dd46e8bac065b48.jpg')).buffer(),
     }
     }
     }
@@ -38,12 +38,12 @@ ptt: true, contextInfo: { forwardingScore: 999, isForwarded: true,
              description: '',  
              mediaType: 2, 
            thumbnail: await (await fetch(fla + 'Broadcast')).buffer(), 
-          mediaUrl: `https://youtu.be/35w7z9QFLwY` 
+          mediaUrl: `https://instagram.com/sampun_penak` 
          } 
       } 
    })
 }
-    m.reply('_*Broadcast Finished*_')
+    m.reply('_*Broadcast Selesai*_')
 }
 handler.help = ['bcavn'].map(v => v + ' <teks>')
 handler.tags = ['owner']

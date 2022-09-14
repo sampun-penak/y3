@@ -141,9 +141,10 @@ global.reloadHandler = function (restatConn) {
 │ ✧ *Umur:*
 │ ✧ *Status:*
 │ ✧ *Askot:*
+│ ✧ *Tujuan Masuk:*
 ╰◪
   
-              *◌  ⃝✧⪼ Deskripsi Group ミ*
+         *◌  ⃝✧⪼ Deskripsi Group ミ*
   @desc`
   conn.bye = 'Selamat tinggal @user!'
   conn.spromote = '@user sekarang admin!'

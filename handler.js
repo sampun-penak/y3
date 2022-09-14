@@ -28,21 +28,21 @@ module.exports = {
         global.fake = global.fake
         global.fkontak = global.fkontak
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
-        global.img = 'https://telegra.ph/file/0c567eac403737766688f.jpg'
+        global.img = 'https://telegra.ph/file/74d983dd46e8bac065b48.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = '© CUTE IQ-MD'
-        global.author = 'Made By Ziv San © 2022'
+        global.packname = '© CUTE TheBotz-Ofc'
+        global.author = 'Made By Mimim Ofc © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Cute Bot By Ziv San © 2022'
-        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Ziv San˚'
-        global.wm2 = '© CUTE IQ-MD' + ' ' + 'By Ziv San'
-        global.wm = '© CUTE IQ-MD'
+        global.author2 = 'Cute Bot By Mimim Ofc © 2022'
+        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Mimim Ofc˚'
+        global.wm2 = '© CUTE TheBotz-Ofc' + ' ' + 'By Mimim Ofc'
+        global.wm = '© CUTE TheBotz-Ofc'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'By Haori & Ziv San'
+        global.colong2 = 'By TheBotz & Mimim Ofc'
         global.kontak2 = [
-        ['16199961931', 'Ziv San', 'Creator Bot', 'Zivsan@support.com', true],
-        ['6282179137771', 'CUTE IQ-MD', 'Bot WhatsApp', 'Just Bot', true]
+        ['6287848115476', 'Mimim Ofc', 'Creator Bot', 'mimimproject@gmail.com', true],
+        ['6283816446896', 'CUTE TheBotz-Ofc', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -317,8 +317,8 @@ module.exports = {
                     expired: 0,
                     antiBadword: true,
                     antispam: true,
-                    antitroli: false,
-                    antivirtex: false,
+                    antitroli: true,
+                    antivirtex: true,
                     viewonce: true,
                     nsfw: false,
                     simi: false,
@@ -652,7 +652,7 @@ module.exports = {
                                 member: groupMetadata.participants.length
                             })
                             /*await this.send3TemplateButtonImg(id, action === 'add' ? wel : lea, text, wm, action === 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'FokusID')*/
-   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'Cute IQ-MD', fkontak,{
+   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'Cute TheBotz-Ofc', fkontak,{
   contextInfo: {mentionedJid: [user],
     externalAdReply :{
     mediaUrl: linkyt,
@@ -749,7 +749,7 @@ global.dfail = async (type, m, conn) => {
     /*}[type]
     if (msg) return conn.reply(m.chat, msg, m, { mentions: conn.parseMention(msg) })*/
     }[type]
-    if (msg) return conn.sendButtonDoc(m.chat, msg, wmo, 'Menu', '.menu', m, {
+    if (msg) return conn.sendButtonDoc(m.chat, msg, wmo, '🎀 MENU 🎀', '.menu', m, {
   mentions: conn.parseMention(msg),
   contextInfo: { externalAdReply :{
     mediaUrl: ig,

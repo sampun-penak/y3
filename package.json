@@ -1,5 +1,5 @@
 {
-    "name": "Raxcel-MD",
+    "name": "TheBotz-MD",
     "version": "2.2.5",
     "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
@@ -28,16 +28,16 @@
         "stikerin",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/Kangsad01/bot-md",
+    "homepage": "https://github.com/sampun-penak/y",
     "author": {
-        "name": "Kangsad01"
+        "name": "Thebotz"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kangsad01/bot-md.git"
+        "url": "git+https://github.com/sampun-penak/y.git"
     },
     "bugs": {
-        "url": "https://github.com/Kangsad01/bot-md/issues"
+        "url": "https://github.com/sampun-penak/y/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
