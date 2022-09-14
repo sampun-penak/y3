@@ -15,10 +15,10 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
         await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
-Saya Adalah Cute, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
+Saya Adalah Bot, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
 
 Tolong Jangan Spam, Telepon, Vc, Kirim Virtex.`} 
- `.trim(), hao, user.banned ? '🛡 PEMILIK BOT 🛡' : '🎀 MENU 🎀', user.banned ? '!owner' : '.menu', '🔖 PANDUAN PENGGUNAAN 🔖', '.tutorbot', '🗂 VERIFY 🗂', '.daftar ${conn.getName(m.sender)}.16', m) 
+ `.trim(), hao, user.banned ? '🛡 PEMILIK BOT 🛡' : '🎀 MENU 🎀', user.banned ? '!owner' : '.menu', '🔖 PANDUAN 🔖', '.tutorbot', '🗂 VERIFY 🗂', '.daftar ${conn.getName(m.sender)}.16', m) 
      user.pc = new Date * 1 
  } 
  

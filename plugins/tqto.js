@@ -34,6 +34,7 @@ Terimakasih Juga Untuk Kang Banned:
 • Yanzz
 • Furqan
 • Elyas
+• Mimim
 • Rasel
 • Xteam
 • Khael
@@ -51,7 +52,7 @@ Terimakasih Juga Untuk Kang Banned:
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
 ──────────────────────`
-await conn.sendButtonLoc(m.chat, await conn.resize('https://telegra.ph/file/0e265e801d892a340e877.png', 300, 300),  tqto, `Ini Ucapan Terima Kasih Untuk Orang Nya Telah Berpatisipasi
+await conn.sendButtonLoc(m.chat, await conn.resize('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 300, 300),  tqto, `Ini Ucapan Terima Kasih Untuk Orang Nya Telah Berpatisipasi
 
 Official By @${'0'.split('@')[0]}`, 'Rules', '.rules', m)
 }

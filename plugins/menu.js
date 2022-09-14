@@ -320,7 +320,7 @@ ${'```%npmdesc```'}
  	let cute = `${pickRandom(['https://telegra.ph/file/dc8b3a29b4b2c770d1727.jpg', 'https://telegra.ph/file/dc8b3a29b4b2c770d1727.jpg', 'https://telegra.ph/file/1767c5d6b71e200231ca6.jpg', 'https://telegra.ph/file/13488976473884608c03c.jpg','https://telegra.ph/file/21329b42e497787e3c2c2.jpg','https://telegra.ph/file/6999d6a56326852484746.jpg', 'https://telegra.ph/file/5df66151d217bb5cd1627.jpg', 'https://telegra.ph/file/c71a6b41795ab649daef7.jpg', 'https://telegra.ph/file/c9a695262426ed4e8b3b8.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
-Saya Adalah Cute Bot Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik .request Pesan Atau Fitur Yang Kamu Inginkan!`
+Saya Adalah Bot Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik .request Pesan Atau Fitur Yang Kamu Inginkan!`
 conn.sendMessage(m.chat, {
     	react: {
     		text: emot,
@@ -380,39 +380,39 @@ return conn.send2ButtonLoc(m.chat, cute, ori, `Note : Jika Anda Menggunakan Wa L
      text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]) 
      //await conn.reply(m.chat, '*L o a d i n g . . .*', fload) 
  
-   /*await conn.send2ButtonImg(m.chat, await (await fetch('https://api.xteam.xyz/textpro/glitch?text=' + teks + '&text2=CUTE%20IQ-MD%20BY%20ZIV%20SAN&APIKEY=bf8ff984af1506b7')).buffer(), text.trim(), hao, 'Donasi', '.donasi', 'Rules', '.rules', m, { 
+   /*await conn.send2ButtonImg(m.chat, await (await fetch('https://api.xteam.xyz/textpro/glitch?text=' + teks + '&text2=BOT%20BY-THEBOTZ%20OFFICIAL%20X%20MIMIM&APIKEY=bf8ff984af1506b7')).buffer(), text.trim(), hao, 'Donasi', '.donasi', 'Rules', '.rules', m, { 
      quoted: ftoko, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-             title: 'Cute IQ-MD Testing Project By Ziv San', 
+             title: 'TheBotz-MD Testing Project By Mimim-Ofc', 
              body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              mediaType: 2, 
            thumbnail: await genProfile(conn, m),
-          mediaUrl: `${pickRandom([`https://www.facebook.com/Inunime-107082474576049/`,`https://youtu.be/JWHV8lPTzPs`])}` 
+          mediaUrl: `${pickRandom([`https://www.facebook.com/Inunime-107082474576049/`,`https://instagram.com/sampun_penak`])}` 
          } 
       } 
      })*/
-//await conn.send3ButtonLoc(m.chat, await conn.resize(await (await fetch('https://api.xteam.xyz/textpro/glitch?text=' + teks + '&text2=CUTE%20IQ-MD%20BY%20ZIV%20SAN&APIKEY=bf8ff984af1506b7')).buffer(), 300, 200), '◈┈┉────[ *DASHBOARD* ]────┉┈◈' , text.trim(), 'Owner', '.owner', 'Donasi', '.donasi', 'Rules', '.rules', m)
+//await conn.send3ButtonLoc(m.chat, await conn.resize(await (await fetch('https://api.xteam.xyz/textpro/glitch?text=' + teks + '&text2=BOT%20BY%20THEBOTZ%20OFFICIAL%20🏷&APIKEY=bf8ff984af1506b7')).buffer(), 300, 200), '◈┈┉────[ *DASHBOARD* ]────┉┈◈' , text.trim(), 'Owner', '.owner', 'Donasi', '.donasi', 'Rules', '.rules', m)
 await conn.send2ButtonLoc(m.chat, await conn.resize(await (await fetch(flu + teks)).buffer(), 300, 200), text.trim(), `Aktif Selama : ${uptime}\n${week} ${date}\n${dateIslamic}`, '🛡 OWNER 🛡', `${_p}owner`, '💰 DONASI 💰', `${_p}donasi`, m)
 //await conn.send2ButtonImg(m.chat, await (await fetch(`${logos()}`)).buffer(), '──────────[ *DASHBOARD* ]──────────', text, 'OWNER', '.owner', '\n\nSAYA PEDO DAN SAYA BANGGA ꒪꒳꒪', 'a', fkon, { contextInfo: { forwardingScore: 999, isForwarded: true}})
 /*await conn.send2ButtonDoc(m.chat, '──────────[ *DASHBOARD* ]──────────', text, 'OWNER', '.owner', 'Rules', '.rules', m, { 
      quoted: ftoko, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-             title: 'Cute IQ-MD Testing Project By Ziv San', 
+             title: 'TheBotz-Ofc Testing Project By Mimim', 
              body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              mediaType: 2, 
            thumbnail: await (await fetch(`${logos()}`)).buffer(),
-          mediaUrl: `https://www.facebook.com/Inunime-107082474576049/`
+          mediaUrl: `https://instagram.com/sampun_penak`
          } 
       } 
      })*/
      //conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m).catch(_ => conn.reply(m.chat, text.trim(), m))
   conn.sendFile(m.chat, 'https://a.uguu.se/jvdOuNWe.mp3', 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Mimim : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `${pickRandom(['Follow My instagram'])}`, sourceUrl: 'https://instagram.com/sampun_penak', thumbnail: await (await fetch('https://telegra.ph/file/8d216a35e2ac344d128f8.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Mimim : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `${pickRandom(['Follow My instagram'])}`, sourceUrl: 'https://instagram.com/sampun_penak', thumbnail: await (await fetch('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg')).buffer(),}} 
      })
 } catch (e) { 
      conn.reply(m.chat, 'Maaf, menu sedang error', m) 

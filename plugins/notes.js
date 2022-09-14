@@ -14,7 +14,7 @@ let handler = async (m, { conn }) => {
     surface : 404,
     message: '📝 Catatan Update Bot',
     orderTitle: `▮Menu ▸`,
-    thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/ff14884c8be9a101327ab.jpg')).buffer(), 300, 300), //Gambarnye
+    thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg')).buffer(), 300, 300), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -42,7 +42,7 @@ await conn.sendButtonImg(m.chat, await (await fetch('https://botcahx-rest-api.he
              description: 'Now Playing...', 
              mediaType: 2, 
            thumbnail: await (await fetch(fla + 'Update')).buffer(), 
-          mediaUrl: `https://youtu.be/35w7z9QFLwY` 
+          mediaUrl: `https://instagram.com/sampun_penak` 
          } 
       } 
    })

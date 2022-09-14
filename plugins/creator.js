@@ -12,9 +12,9 @@ let handler = async(m, { conn }) => {
     itemCount : 999999,
     status: 404,
     surface : 404,
-    message: `Nih My Mastah :3`, 
+    message: `Nih Kontak Ownerku <3`, 
     orderTitle: ``,
-    thumbnail: await (await fetch('https://telegra.ph/file/7501d485189f34dc429a7.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -32,7 +32,7 @@ let handler = async(m, { conn }) => {
     contextInfo: { //forwardingScore: 99999, isForwarded: true,
         externalAdReply: { //showAdAttribution: true,
         	sourceUrl: 'https://instagram.com/sampun_penak',
-            title: 'Jangan Bully Mimim Dia Kang Kopas <3',
+            title: 'Jangan Bully Mimim Dia Kang Recode <3',
             body: 'Follow Instagram Saya Bang',
           thumbnail: await (await fetch(pp)).buffer()
         }

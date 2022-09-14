@@ -33,7 +33,7 @@ let txt = `🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.
             description: 'Now Playing...',
             mediaType: 2,
           thumbnail: await (await fetch('https://telegra.ph/file/9e323ad1f4b2d52579416.jpg')).buffer(),
-         mediaUrl: `https://youtu.be/E1nLzgkOH8A`
+         mediaUrl: `https://instagram.com/sampun_penak`
         }
      }
   })

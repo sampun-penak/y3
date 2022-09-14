@@ -14,7 +14,7 @@ let fetch = require('node-fetch')
     surface : 404,
     message: `${ucapan()}`,
     orderTitle: `${ucapan()}`,
-    thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/3d150b20dbe58f043ca8b.jpg')).buffer(), 300, 200),  //Gambarnye
+    thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg')).buffer(), 300, 200),  //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -31,7 +31,7 @@ let fetch = require('node-fetch')
                      "description": "Harap membaca Peraturan demi kenyamanan kita bersama", 
                      "rowId": `${usedPrefix}rules` 
                    }, { 
-                     "title": "Group Official Cute Bot", 
+                     "title": "Group Official Bot", 
                      "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan", 
                      "rowId": `${usedPrefix}gcbot` 
                    }], 

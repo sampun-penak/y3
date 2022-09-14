@@ -11,7 +11,7 @@ if (!args[0]) throw 'Contoh penggunaan:\n\n*.emojimix 🐷+😣*'
   conn.sendFile(m.chat, stek, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true, contextInfo: {
-        externalAdReply: { showAdAttribution: true, title: 'Nih Kak', body: `${pickRandom(['Follow Tiktok My Bestie'])}`, sourceUrl: 'https://www.tiktok.com/@fory_whitecattiktok?_t=8V5TGON5rgv&_r=1', thumbnail: await (await fetch('https://telegra.ph/file/b25cf88fd52d63ca47c49.jpg')).buffer(),}} 
+        externalAdReply: { showAdAttribution: true, title: 'Nih Kak', body: `${pickRandom(['Follow Tiktok My Bestie'])}`, sourceUrl: 'https://instagram.com/sampun_penak', thumbnail: await (await fetch('https://telegra.ph/file/b25cf88fd52d63ca47c49.jpg')).buffer(),}} 
      })
 		}
 }

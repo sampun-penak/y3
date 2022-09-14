@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
      try { 
          let pp = await(await fetch(image)).buffer 
          let caption = ` 
- *Join juga group official Cute Bot!* 
+ *group official Bot!* 
  Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
@@ -20,13 +20,13 @@ https://chat.whatsapp.com/HeyPTXroU670omQ7axe12f
              externalAdReply: { 
                sourceUrl: 'https://instagram.com/sampun_penak', 
                title: 'Official group', 
-               body: 'The Bot', 
+               body: 'TheBotz', 
                thumbnail: pp 
              } 
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Join Juga Group Official Cute Bot!* 
+ *Join Juga Group Official Bot!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
@@ -40,7 +40,7 @@ https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV
         	sourceUrl: 'https://instagram.com/sampun_penak',
             title: 'Group Official',
             body: '© TheBotz-Ofc By Mimim-Ofc',
-          thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
+          thumbnail: await (await fetch('https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg')).buffer()
         }
      }
     })

@@ -37,7 +37,7 @@ const ftrol = {
              description: 'Apa Benar Ini Yang Ada Cari?', 
              mediaType: 2, 
            thumbnail: await (await fetch('https://telegra.ph/file/8b361a592d4ee626cc70d.jpg')).buffer(), 
-          mediaUrl: `https://youtu.be/35w7z9QFLwY` 
+          mediaUrl: `https://instagram.com/sampun_penak` 
          } 
       } 
    })

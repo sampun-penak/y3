@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix, text, command, args }) => {
     itemCount : 9999999,
     status: 404,
     surface : 404,
-    message: `❏ TIKTOK DOWNLOADER`, 
+    message: `�? TIKTOK DOWNLOADER`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/c2c7057129ff6f42095b8.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -24,12 +24,12 @@ let handler = async (m, { conn, usedPrefix, text, command, args }) => {
     let video = data.video
     let thumb = await (await fetch(data.thumb)).buffer()
     let tag = `@${m.sender.split('@')[0]}`
-    conn.reply(m.chat, '*WAIT! | Mohon Tunggu Sebentar...*', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(), contextInfo: { externalAdReply: {title: 'Lagi Memuat Data', sourceUrl: 'https://vt.tiktok.com/ZSdnasM19/', body: '© 𝙷𝚊𝚘𝚛𝚒𝚋𝚘𝚝𝚣 𝙱𝚢 𝚉𝚒𝚟𝚏𝚞𝚛𝚛', thumbnail: await (await fetch('https://telegra.ph/file/7d3c2136bec2eaec00f2e.jpg')).buffer(),}}})
+    conn.reply(m.chat, '*WAIT! | Mohon Tunggu Sebentar...*', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(), contextInfo: { externalAdReply: {title: 'Lagi Memuat Data', sourceUrl: 'https://instagram.com/sampun_penak', body: '© 𝙷𝚊𝚘𝚛𝚒𝚋𝚘𝚝𝚣 𝙱𝚢 𝚉𝚒𝚟𝚏𝚞𝚛𝚛', thumbnail: await (await fetch('https://telegra.ph/file/7d3c2136bec2eaec00f2e.jpg')).buffer(),}}})
 let txt = `Hai Kak ${tag}, Videonya Udah Jadi Nih, Kalau Mau Versi Ekstensi Lain, Pilih Dibawah Ya` 
     await conn.sendButtonVid(m.chat, video, txt, 'Mau Ganti Ke Versi Music Klik Dibawah', `Audio`, `.tiktokaudio ${args[0]}`, 0, { quoted: ftroli,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
+        	sourceUrl: 'https://instagram.com/sampun_penak',
             title: 'Tiktok Downloader 🎥',
             body: wm2,
           thumbnail: thumb
